@@ -1,38 +1,145 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
+  font-family: Roboto,Arial,sans-serif;
+}
+.header{
+  width: 1100px;
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  float: left;
+  flex-wrap: wrap;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background-color: #4481e2;
+}
+.name1{
+  margin-left: 20px;
+  color: #f3eded;
+}
+#from i{
+  margin-left: 9px;
+}
+.img-name{
+  width: 90px;
+}
+form input{
+  outline: none;
+  width: auto;
+  padding: 5px 10px;
+}
+#from .fa{
+  padding: 2px 5px;
+  
+  font-size: 12px;
+  color: #3b3535;
+  background-color: white;
+}
+.login{
+  font-weight: 700;
+  font-size: 15px;
+  background-color: white;
+  color: #6378ec;
+  padding: 5px 25px;
+}
+.become{
+  font-size: 17px;
+}
+.cart{
+  font-size: 17px;
+}
+.listiphone{
+  width: 1100px;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* border: 2px solid yellow; */
+}
+.list{
+  margin: 1px;
+  /* width: 150px; */
+  font-size: 14px;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+#img12{
+  width: 200px;
+  /* height: 200px; */
+  float: left;
+
+}
+.img{
+  height: 150px;
+  margin: 6px 0px 10px 0px;
+/* width: 150px; */
+/* height: 10%; */
+/* border: 1px solid rgb(34, 247, 6); */
+}
+.color{
+  font-size: 20px;
+  color: #878787;
+  margin-top: 5px 5px 0px 0px;
+  align-items: start;
+}
+.name{
+  justify-content: center;
+  color: #3d3c3c;
+  cursor: pointer;
+  margin: 4px 0px 4px 0px;
+  /* border: 1px solid rgb(29, 27, 27); */
+}
+.name:hover{
+  color: #2874f0;
+}
+.star{
+  color: white;
+  font-size: 12PX;
+ background-color: rgb(65, 189, 65);
+ border-radius: 3PX;
+ padding: 1PX 4.5PX;
+    /* background-color: #f1f3f6; */
+    line-height: 1.4;
+  /* padding: 5px 0px 5px 0px; */
+  /* border: 1px solid rgb(34, 33, 33); */
+}
+.star4{
+  margin-left: 3px;
+  
+}
+.star1{
+  font-weight: 500;
+  color: #878787;
+  margin-left: 4.5px;
+}
+.star2{
+  font-size: 19px;
+}
+.price1{
+  margin: 4px 0px;
+}
+.price{
+  /* background-color: #f1f3f6; */
+  color: #212121;
+}
+.price2{
+  margin-left: 4px;
+  color: rgb(38, 153, 38);
+}
+@media screen and (max-width: 1100px) {
+.header{
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.listiphone{
+  width: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 800px){
+  from{
+    display: none;
   }
 }
