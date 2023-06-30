@@ -1,14 +1,14 @@
 import Listiphone from './Hello';
 import './App.css';
 import 'font-awesome/css/font-awesome.min.css'
-import Hader from './Hader';
+import Header from './Header';
 // import './Listiphone'
 function App() {
   return (
     <div className="App">
-      <Hader/>
+      <Header/>
       <Listiphone/>
-      
+      {/* <header/> */}
     </div>
   );
 }
